@@ -18,8 +18,8 @@ find_anagram(w1, w2)
 
 def find_anagram(w3, w4):
     if(len(w3) == len(w4)):
-        sorted_w3=sorted(w4)
-        sorted_w3=sorted(w4)
+        sorted_w3=sorted(w3)
+        sorted_w4=sorted(w4)
 
         if (sorted_w3 == sorted_w4):
                 print("True")
