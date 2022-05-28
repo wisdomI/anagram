@@ -29,7 +29,7 @@ def find_anagram(w3, w4):
         print("False")
 
 
-w1 = "Scoop"
-w2 = "pool"
+w3 = "Scoop"
+w4 = "pool"
 
 find_anagram(w3, w4)
