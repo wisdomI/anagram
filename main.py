@@ -32,4 +32,4 @@ def find_anagram(w3, w4):
 w1 = "Scoop"
 w2 = "pool"
 
-find_anagram(w1, w2)
+find_anagram(w3, w4)
