@@ -11,7 +11,25 @@ def find_anagram(w1, w2):
         print("False")
 
 
-w1 = input("input text here ")
-w2 = input("input text here ")
+w1 = "loop"
+w2 = "pool"
+
+find_anagram(w1, w2)
+
+def find_anagram(w3, w4):
+    if(len(w3) == len(w4)):
+        sorted_w3=sorted(w4)
+        sorted_w3=sorted(w4)
+
+        if (sorted_w3 == sorted_w4):
+                print("True")
+        else: print("False")
+
+    else: 
+        print("False")
+
+
+w1 = "Scoop"
+w2 = "pool"
 
 find_anagram(w1, w2)
